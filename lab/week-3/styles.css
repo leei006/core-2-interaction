@@ -1,0 +1,134 @@
+.topnav{
+    width: 51%;
+    margin-left: auto;
+    margin-right: auto;
+    overflow: hidden;
+}
+.topnav a{
+    float: left;
+    display: block;
+    color: rgb(219, 26, 119);
+    background-color: rgb(246, 236, 234);
+    text-align: center;
+    font-family: "Questrial", sans-serif;
+    font-size: 8pt;
+    padding: 9px 12px;
+    border-color: white;
+    text-decoration: none;
+}
+.topnav a:hover {
+    background-color: rgb(255, 247, 192);
+}
+.topnav a.active{
+    background-color: rgb(246, 176, 199);
+}
+body{
+    background-color: rgb(247, 241, 243);
+}
+h1 {
+    font-family: "Questrial", sans-serif;
+    font-size: 45px;
+}
+.articletitle {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    font-family: "Questrial", sans-serif;
+    font-size: 50px;
+    text-align: center;
+    color: rgb(219, 26, 119);
+}
+.hometitle {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    font-family: "Questrial", sans-serif;
+    font-size: 35px;
+    text-align: left;
+}
+h2 {
+    font-family: "Questrial", sans-serif;
+    font-size: 20px;
+    color: rgb(219, 26, 119);
+}
+h3 {
+    font-family: "Questrial", sans-serif;
+    font-size: 25px;
+}
+h5 {
+    font-family: "Questrial", sans-serif;
+    font-size: 15px;
+}
+.bL {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    text-align: justify;
+    font-family: "Questrial", sans-serif;
+    font-size: 15px;
+    color: rgb(219, 26, 119);
+}
+.subtitle1 {
+    width: 50%;
+    font-family: "Questrial", sans-serif;
+    font-size: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(219, 26, 119);
+}
+.subtitle2 {
+    width: 50%;
+    font-family: "Questrial", sans-serif;
+    font-size: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(219, 26, 119);
+}
+.footer {
+    width: 50%;
+    font-family: "Questrial", sans-serif;
+    font-size: 12px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(2, 2, 2);
+}
+.collage {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr ;
+}
+img {
+    width: 75%;
+}
+.matches {
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.oven {
+    margin-top: 15px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+}
+.tomato {
+    margin-top: 15px;
+}
+.titleimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 15%;
+}
+
