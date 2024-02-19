@@ -12,9 +12,11 @@ body {
     font-weight: 400;
 }
 h1 {
-    text-align: justify;
+    width: 64%;
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
-    font-size: 40px;
+    font-size: 30px;
     font-weight: 600;
     word-spacing: -5px;
 }
@@ -84,4 +86,18 @@ h2 {
     font-size: 13px;
     font-weight: 600;
     line-height: 1.7;
+}
+.topbar{
+  width: 60%;
+  background-color: rgb(238, 238, 223);
+  padding: 2px;
+  text-align: center;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.topactive{
+  background-color: rgb(241, 241, 6);
 }
