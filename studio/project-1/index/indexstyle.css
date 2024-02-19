@@ -1,50 +1,71 @@
 body {
+    background-color: black;
     font-family: "Kode Mono", monospace;
     margin: 5%;
 }
-
+a {
+    text-decoration: none;
+}
 h1 {
+    color: rgb(249, 247, 247);
     margin-top: 50px;
-    text-align: center;
+    text-align: left;
     font-size: 45px;
     font-weight: 300;
 }
 h2{
-    text-align: center;
+    color: rgb(249, 247, 247);
+    text-align: left;
     font-size: 20px;
+    font-weight: 300;
+}
+.start {
+    color: rgb(249, 247, 247);
+    text-align: left;
+    font-size: 16px;
     font-weight: 300;
 }
 h3{
+    color: rgb(249, 247, 247);
     margin-top: 80px;
-    text-align: center;
-    font-size: 20px;
+    text-align: left;
+    font-size: 16px;
     font-weight: 300;
 }
 .navbar {
-    font-size: 15px;
+    word-spacing: 4px;
+    line-height: 2;
+    text-align: left;
+    
+}
+.linktxt {
+    display: block;
+    font-size: 20px;
     font-weight: 300;
-    text-align: center;
-    list-style-type: none;
-    padding: 0;
-    color: rgb(22, 21, 21);
-    text-align: center;
-    padding: 10px 12px;
+    word-spacing: -4px;
+    color: rgb(249, 247, 247);
+    text-decoration: none;
 }
-span {
-    margin-left: 1%;
+span::before {
+    font-size: 15px;
+    color: red;
+    content: "most uninteresting";
+    animation: animate infinite 5s;
 }
-@media screen and (max-width: 800px){
-    .navbar {
-        font-size: 10px;
-        line-height: 2;
+@keyframes animate {
+    10% {
+        content: "most uninteresting"
     }
-    h1 {
-        font-size: 35px;
+    20% {
+        content: "unnecessary"
     }
-    h2 {
-        font-size: 10px;
+    30% {
+        content: "positively revolting"
     }
-    h3 {
-        font-size: 10px;
+    40% {
+        content: "ugly"
+    }
+    50% {
+        content: "spoil"
     }
 }
