@@ -1,56 +1,70 @@
 body {
-    background-color: black;
-    font-family: "Kode Mono", monospace;
+    background-color: rgb(238, 238, 223);
     margin: 5%;
 }
 a {
     text-decoration: none;
 }
 h1 {
-    color: rgb(249, 247, 247);
+    font-family: "loos-wide", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: rgb(8, 5, 5);
     margin-top: 50px;
     text-align: left;
-    font-size: 45px;
-    font-weight: 300;
+    font-size: 30px;
 }
 h2{
-    color: rgb(249, 247, 247);
-    text-align: left;
-    font-size: 20px;
-    font-weight: 300;
-}
-.start {
-    color: rgb(249, 247, 247);
+    font-family: "loos-wide", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-style: normal;
+    color: rgb(8, 5, 5);
     text-align: left;
     font-size: 16px;
-    font-weight: 300;
+}
+.start {
+    display: block;
+    margin-top: 40px;
+    font-family: "loos-wide", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: rgb(8, 5, 5);
+    text-align: left;
+    font-size: 16px;
 }
 h3{
-    color: rgb(249, 247, 247);
+    font-family: "loos-wide", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: rgb(8, 5, 5);
     margin-top: 80px;
     text-align: left;
     font-size: 16px;
-    font-weight: 300;
 }
 .navbar {
+    font-family: "loos-wide", sans-serif;
+    font-weight: 100;
+    font-style: normal;
     word-spacing: 4px;
     line-height: 2;
     text-align: left;
     
 }
 .linktxt {
-    display: block;
-    font-size: 20px;
+    display: inline-block;
+    font-size: 38px;
     font-weight: 300;
-    word-spacing: -4px;
-    color: rgb(249, 247, 247);
+    word-spacing: 4px;
+    color: rgb(8, 5, 5);
     text-decoration: none;
 }
 span::before {
-    font-size: 15px;
+    margin-left: 5px;
+    font-size: 20px;
     color: red;
     content: "most uninteresting";
-    animation: animate infinite 5s;
+    animation: animate infinite 10s;
 }
 @keyframes animate {
     10% {
@@ -69,3 +83,8 @@ span::before {
         content: "spoil"
     }
 }
+@media only screen and (max-width: 900px) {
+    .linktxt {
+        font-size: 20px;
+    }
+  }
