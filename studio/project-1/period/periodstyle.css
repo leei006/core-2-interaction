@@ -1,17 +1,21 @@
 body {
     font-family: "Kode Mono", monospace;
-    margin: 5%;
 }
 .index {
-    width: 60%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: left;
-    font-size: 20px;
-    font-weight: 400;
+  font-family: "loos-wide", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  width: 60%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  font-size: 30px;
+  text-decoration: none;
+  color: rgb(193, 193, 180);
 }
 h1 {
+    color: red;
     text-align: justify;
     text-align: center;
     font-size: 50px;
@@ -90,6 +94,9 @@ h2 {
     margin-right: auto;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.top {
+  color: black;
 }
 .topactive{
   background-color: rgb(179, 179, 159);

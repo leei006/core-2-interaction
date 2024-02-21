@@ -1,21 +1,46 @@
 body {
-    cursor: grab;
-    font-family: "Kode Mono", monospace;
+    background-color: rgb(240, 240, 221);
 }
-.index {
-    width: 60%;
-    display: block;
+.navbar {
     margin-left: auto;
     margin-right: auto;
+    width: 60%;
+    font-family: "loos-wide", sans-serif;
+    font-weight: 100;
+    word-spacing: normal;
+    line-height: 2;
     text-align: left;
-    font-size: 20px;
-    font-weight: 400;
+    
+}
+.linktxt {
+    display: inline-block;
+    font-family: "loos-wide", sans-serif;
+    font-weight: 200;
+    font-size: 29px;
+    word-spacing: 4px;
+    color: rgb(9, 9, 8);
+    text-decoration: none;
+}
+.linktxtactive {
+    font-family: "loos-wide", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 29px;
+    word-spacing: 4px;
+    text-decoration: none;
+    color: red;
+}
+.linktxt:hover {
+    color: red;
+    transform: scale(1.03);
 }
 h1 {
+    font-family: "Kode Mono", monospace;
     text-align: justify;
     text-align: center;
     font-size: 60px;
     font-weight: 600;
+    color: red;
     animation: flip 3s infinite;
     animation-delay: calc(.2s * var(--i));
 }
@@ -25,6 +50,7 @@ h1 {
     }
 }
 .question {
+    font-family: "Kode Mono", monospace;
     text-align: justify;
     margin-top: 70px;
     margin-left: auto;
@@ -34,6 +60,7 @@ h1 {
     font-weight: 400;
 }
 .excl {
+    font-family: "Kode Mono", monospace;
     text-align: justify;
     margin-top: 30px;
     margin-left: auto;
@@ -43,6 +70,7 @@ h1 {
     font-weight: 400;
 }
 .transition {
+    font-family: "Kode Mono", monospace;
     text-align: justify;
     width: 60%;
     margin-top: 40px;
@@ -52,6 +80,7 @@ h1 {
     font-weight: 400;
 }
 .next {
+    font-family: "Kode Mono", monospace;
     text-align: justify;
     width: 60%;
     margin-top: 40px;
@@ -62,6 +91,7 @@ h1 {
     font-weight: 700;
 }
 .character{
+    font-family: "Kode Mono", monospace;
     color: red;
     font-size: 25px;
     font-weight: 700;
@@ -84,7 +114,32 @@ h1 {
       transform: translateY(0%);
     }
   }
-.topbar{
+.spcharacter {
+    color: red;
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: none;
+    animation: 2s anim-lineUp ease-out infinite;
+}
+@keyframes anim-lineUp {
+    0% {
+      opacity: 0;
+      transform: translateY(80%);
+    }
+    20% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+/* .topbar {
+    font-family: "Kode Mono", monospace;
     width: 60%;
     background-color: rgb(238, 238, 223);
     padding: 2px;
@@ -95,6 +150,9 @@ h1 {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
+.top {
+    color: black;
+}
 .topactive{
     background-color: rgb(179, 179, 159);
-}
+} */

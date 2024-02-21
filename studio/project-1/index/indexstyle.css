@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(238, 238, 223);
+    background-color: rgb(240, 240, 221);
     margin: 5%;
 }
 a {
@@ -10,7 +10,7 @@ h1 {
     font-weight: 200;
     font-style: normal;
     color: rgb(8, 5, 5);
-    margin-top: 50px;
+    margin-top: 30px;
     text-align: left;
     font-size: 30px;
 }
@@ -29,7 +29,7 @@ h2{
     font-family: "loos-wide", sans-serif;
     font-weight: 200;
     font-style: normal;
-    color: rgb(8, 5, 5);
+    color: red;
     text-align: left;
     font-size: 16px;
 }
@@ -59,11 +59,20 @@ h3{
     color: rgb(8, 5, 5);
     text-decoration: none;
 }
-span::before {
-    margin-left: 5px;
-    font-size: 20px;
+.linktxt:hover {
     color: red;
-    content: "most uninteresting";
+    transform: scale(1.03);
+}
+span::before {
+    font-family: "loos-wide", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 50px;
+    color: white;
+    background-color: black;
+    border: solid;
+    padding: 10px;
+    content: "";
     animation: animate infinite 10s;
 }
 @keyframes animate {
@@ -83,6 +92,7 @@ span::before {
         content: "spoil"
     }
 }
+
 @media only screen and (max-width: 900px) {
     .linktxt {
         font-size: 20px;

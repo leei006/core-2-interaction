@@ -2,19 +2,12 @@ body {
     cursor: grab;
     font-family: "Kode Mono", monospace;
 }
-.index {
-    width: 60%;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    text-align: left;
-    font-size: 20px;
-    font-weight: 400;
-}
 h1 {
+    color: red;
     width: 64%;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 40px;
     text-align: center;
     font-size: 30px;
     font-weight: 600;
@@ -92,12 +85,38 @@ h2 {
   background-color: rgb(238, 238, 223);
   padding: 2px;
   text-align: center;
-  margin-top: 50px;
+  margin-top: 90px;
   margin-left: auto;
   margin-right: auto;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 }
+.top{
+  color: black;
+}
 .topactive{
   background-color: rgb(179, 179, 159);
+}
+.back {
+  font-size: 20px;
+  text-decoration: none;
+  color: red;
+  animation: 2s anim-lineUp ease-out infinite;
+}
+@keyframes anim-lineUp {
+  0% {
+    opacity: 0;
+    transform: translateY(80%);
+  }
+  20% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
 }
