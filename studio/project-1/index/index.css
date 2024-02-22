@@ -9,7 +9,7 @@ body {
     color: rgb(252, 249, 249);
 }
 p {
-    display: inline;
+    display: inline-block;
 }
 .pun1 {
     animation-name: change;
@@ -76,6 +76,6 @@ button:hover {
 }
 @media only screen and (max-width: 600px) {
     .bar{
-        word-spacing: -30px;
+        font-size: 40px;
     }
   }
