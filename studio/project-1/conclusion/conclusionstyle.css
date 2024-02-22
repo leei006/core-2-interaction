@@ -2,8 +2,41 @@ body {
     cursor: grab;
     font-family: "Kode Mono", monospace;
 }
+.navbar {
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  font-family: "loos-wide", sans-serif;
+  font-weight: 100;
+  word-spacing: normal;
+  line-height: 2;
+  text-align: center;
+  
+}
+.linktxt {
+  display: inline-block;
+  font-family: "loos-wide", sans-serif;
+  font-weight: 200;
+  font-size: 29px;
+  word-spacing: 4px;
+  color:blue;
+  text-decoration: none;
+}
+.linktxtactive {
+  font-family: "loos-wide", sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  font-size: 29px;
+  word-spacing: 4px;
+  text-decoration: none;
+  color: darkblue;
+}
+.linktxt:hover {
+  color: darkblue;
+  transform: scale(1.03);
+}
 h1 {
-    color: red;
+    color: blue;
     width: 64%;
     margin-left: auto;
     margin-right: auto;
@@ -24,7 +57,7 @@ h2 {
     line-height: 1.7;
 }
 .character{
-    color: red;
+    color: blue;
     font-size: 15px;
     font-weight: 700;
     animation: 3s anim-lineUp ease-out;

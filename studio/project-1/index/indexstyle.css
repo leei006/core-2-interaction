@@ -1,5 +1,5 @@
 body {
-    background-color: rgb(240, 240, 221);
+    background-color: rgb(252, 249, 249);
     margin: 5%;
 }
 a {
@@ -9,46 +9,57 @@ h1 {
     font-family: "loos-wide", sans-serif;
     font-weight: 200;
     font-style: normal;
-    color: rgb(8, 5, 5);
-    margin-top: 30px;
-    text-align: left;
-    font-size: 30px;
+    color: lightgrey;
+    margin-top: 90px;
+    text-align: center;
+    font-size: 40px;
+    animation-name: change;
+    animation-duration: 7s ;
+    animation-iteration-count: 1;
 }
 h2{
     font-family: "loos-wide", sans-serif;
     font-weight: 200;
     font-style: normal;
     font-style: normal;
-    color: rgb(8, 5, 5);
+    color: blue;
     text-align: left;
     font-size: 16px;
 }
 .start {
     display: block;
-    margin-top: 40px;
     font-family: "loos-wide", sans-serif;
     font-weight: 200;
     font-style: normal;
-    color: red;
-    text-align: left;
-    font-size: 16px;
+    color: blue;
+    text-align: center;
+    font-size: 18px;
+    text-decoration: none;
+}
+button {
+    display: block;
+    margin-top: 60px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
 }
 h3{
     font-family: "loos-wide", sans-serif;
     font-weight: 200;
     font-style: normal;
-    color: rgb(8, 5, 5);
+    color: blue;
     margin-top: 80px;
     text-align: left;
     font-size: 16px;
 }
 .navbar {
+    margin-top: 60px;
     font-family: "loos-wide", sans-serif;
     font-weight: 100;
     font-style: normal;
     word-spacing: 4px;
     line-height: 2;
-    text-align: left;
+    text-align: center;
     
 }
 .linktxt {
@@ -56,14 +67,14 @@ h3{
     font-size: 38px;
     font-weight: 300;
     word-spacing: 4px;
-    color: rgb(8, 5, 5);
+    color: blue;
     text-decoration: none;
 }
 .linktxt:hover {
-    color: red;
+    color: rgb(2, 16, 94);
     transform: scale(1.03);
 }
-span::before {
+/* span::before {
     font-family: "loos-wide", sans-serif;
     font-weight: 200;
     font-style: normal;
@@ -91,10 +102,66 @@ span::before {
     50% {
         content: "spoil"
     }
+} */
+/* .bar {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 20px 20px 20px 20px 20px 20px;
+    grid-template-rows: 20px;
+    font-family: "Kode Mono", monospace;
+    font-size: 40px;
+    color: rgb(252, 249, 249);
+    border: solid blue;
 }
+.pun1 {
+    padding: 2px;
+    animation-name: change;
+    animation-duration: 7s ;
+    animation-iteration-count: 1;
+}
+.pun2 {
+    animation-name: change;
+    animation-duration: 7s ;
+    animation-delay: 1s;
+    animation-iteration-count: 1;
+}
+.pun3 {
+    animation-name: change;
+    animation-duration: 7s ;
+    animation-delay: 2s;
+    animation-iteration-count: 1;
+}
+.pun4 {
+    animation-name: change;
+    animation-duration: 7s ;
+    animation-delay: 3s;
+    animation-iteration-count: 1;
+}
+.pun5 {
+    animation-name: change;
+    animation-duration: 7s ;
+    animation-delay: 4s;
+    animation-iteration-count: 1;
+}
+.pun6 {
+    animation-name: change;
+    animation-duration: 7s ;
+    animation-delay: 5s;
+    animation-iteration-count: 1;
+} */
+
+@keyframes change {
+    0%  {color: blue;}
+    50% {color: lightgrey;}
+}
+
+
 
 @media only screen and (max-width: 900px) {
     .linktxt {
         font-size: 20px;
+    }
+    h1 {
+        font-size: 25px;
     }
   }

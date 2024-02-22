@@ -2,21 +2,41 @@ body {
     cursor: grab;
     font-family: "Kode Mono", monospace;
 }
-.index {
+.navbar {
+  margin-left: auto;
+  margin-right: auto;
+  width: 60%;
+  font-family: "loos-wide", sans-serif;
+  font-weight: 100;
+  word-spacing: normal;
+  line-height: 2;
+  text-align: center;
+  
+}
+.linktxt {
+  display: inline-block;
+  font-family: "loos-wide", sans-serif;
+  font-weight: 200;
+  font-size: 29px;
+  word-spacing: 4px;
+  color:blue;
+  text-decoration: none;
+}
+.linktxtactive {
   font-family: "loos-wide", sans-serif;
   font-weight: 200;
   font-style: normal;
-  width: 60%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  text-align: left;
-  font-size: 30px;
+  font-size: 29px;
+  word-spacing: 4px;
   text-decoration: none;
-  color: rgb(193, 193, 180);
+  color: darkblue;
+}
+.linktxt:hover {
+  color: darkblue;
+  transform: scale(1.03);
 }
 h1 {
-   color: red;
+   color: blue;
     text-align: justify;
     text-align: center;
     font-size: 60px;
@@ -38,9 +58,11 @@ h2 {
     font-size: 13px;
     font-weight: 400;
     line-height: 1.7;
+    color: blue;
+    margin-bottom: 50px;
 }
 .character{
-    color: red;
+    color: blue;
     font-size: 20px;
     font-weight: 700;
     animation: 3s anim-lineUp ease-out;
@@ -85,20 +107,3 @@ h2 {
       transform: translateY(0%);
     }
   }
-  .topbar{
-    width: 60%;
-    background-color: rgb(238, 238, 223);
-    padding: 2px;
-    text-align: center;
-    margin-top: 50px;
-    margin-left: auto;
-    margin-right: auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-}
-.top {
-  color: black;
-}
-.topactive{
-  background-color: rgb(179, 179, 159);
-}
