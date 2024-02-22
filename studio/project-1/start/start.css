@@ -2,16 +2,119 @@ body {
     background-color: rgb(252, 249, 249);
     margin: 5%;
 }
-.bar {
-    font-family: "Kode Mono", monospace;
-    font-size: 60px;
-    text-align: center;
-    color: rgb(252, 249, 249);
+a {
+    text-decoration: none;
 }
-p {
-    display: inline;
+h1 {
+    font-family: "loos-wide", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: lightgrey;
+    margin-top: 90px;
+    text-align: center;
+    font-size: 40px;
+    animation-name: change;
+    animation-duration: 7s ;
+    animation-iteration-count: 1;
+}
+h2{
+    font-family: "loos-wide", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-style: normal;
+    color: blue;
+    text-align: left;
+    font-size: 16px;
+}
+.start {
+    display: block;
+    font-family: "loos-wide", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: blue;
+    text-align: center;
+    font-size: 18px;
+    text-decoration: none;
+}
+button {
+    display: block;
+    margin-top: 60px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+h3{
+    font-family: "loos-wide", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    color: blue;
+    margin-top: 80px;
+    text-align: left;
+    font-size: 16px;
+}
+.navbar {
+    margin-top: 60px;
+    font-family: "loos-wide", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    word-spacing: 4px;
+    line-height: 2;
+    text-align: center;
+    
+}
+.linktxt {
+    display: inline-block;
+    font-size: 38px;
+    font-weight: 300;
+    word-spacing: 4px;
+    color: blue;
+    text-decoration: none;
+}
+.linktxt:hover {
+    color: rgb(2, 16, 94);
+    transform: scale(1.03);
+}
+/* span::before {
+    font-family: "loos-wide", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 50px;
+    color: white;
+    background-color: black;
+    border: solid;
+    padding: 10px;
+    content: "";
+    animation: animate infinite 10s;
+}
+@keyframes animate {
+    10% {
+        content: "most uninteresting"
+    }
+    20% {
+        content: "unnecessary"
+    }
+    30% {
+        content: "positively revolting"
+    }
+    40% {
+        content: "ugly"
+    }
+    50% {
+        content: "spoil"
+    }
+} */
+/* .bar {
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 20px 20px 20px 20px 20px 20px;
+    grid-template-rows: 20px;
+    font-family: "Kode Mono", monospace;
+    font-size: 40px;
+    color: rgb(252, 249, 249);
+    border: solid blue;
 }
 .pun1 {
+    padding: 2px;
     animation-name: change;
     animation-duration: 7s ;
     animation-iteration-count: 1;
@@ -45,32 +148,20 @@ p {
     animation-duration: 7s ;
     animation-delay: 5s;
     animation-iteration-count: 1;
-} 
+} */
 
 @keyframes change {
     0%  {color: blue;}
     50% {color: lightgrey;}
 }
-a {
-    font-family: "loos-wide", sans-serif;
-    font-weight: 200;
-    font-style: normal;
-    font-size: 30px;
-    text-align: center;
-    text-decoration: none;
-    color: white;
-}
-button {
-    display: block;
-    margin-top: 250px;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 10px;
-    width: 120px;
-    border: none;
-    border-radius: 20px;
-    background-color: blue;
-}
-button:hover {
-    transform: scale(1.2);
-}
+
+
+
+@media only screen and (max-width: 900px) {
+    .linktxt {
+        font-size: 20px;
+    }
+    h1 {
+        font-size: 25px;
+    }
+  }

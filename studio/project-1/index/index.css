@@ -1,0 +1,76 @@
+body {
+    background-color: rgb(252, 249, 249);
+    margin: 5%;
+}
+.bar {
+    font-family: "Kode Mono", monospace;
+    font-size: 60px;
+    text-align: center;
+    color: rgb(252, 249, 249);
+}
+p {
+    display: inline;
+}
+.pun1 {
+    animation-name: change;
+    animation-duration: 7s ;
+    animation-iteration-count: 1;
+}
+.pun2 {
+    animation-name: change;
+    animation-duration: 7s ;
+    animation-delay: 1s;
+    animation-iteration-count: 1;
+}
+.pun3 {
+    animation-name: change;
+    animation-duration: 7s ;
+    animation-delay: 2s;
+    animation-iteration-count: 1;
+}
+.pun4 {
+    animation-name: change;
+    animation-duration: 7s ;
+    animation-delay: 3s;
+    animation-iteration-count: 1;
+}
+.pun5 {
+    animation-name: change;
+    animation-duration: 7s ;
+    animation-delay: 4s;
+    animation-iteration-count: 1;
+}
+.pun6 {
+    animation-name: change;
+    animation-duration: 7s ;
+    animation-delay: 5s;
+    animation-iteration-count: 1;
+} 
+
+@keyframes change {
+    0%  {color: blue;}
+    50% {color: lightgrey;}
+}
+a {
+    font-family: "loos-wide", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 30px;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+}
+button {
+    display: block;
+    margin-top: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    width: 120px;
+    border: none;
+    border-radius: 20px;
+    background-color: blue;
+}
+button:hover {
+    transform: scale(1.2);
+}
