@@ -2,31 +2,26 @@ body {
     cursor: grab;
     font-family: "Kode Mono", monospace;
 }
+.main {
+  font-family: "loos-wide", sans-serif;
+  font-weight: 100;
+  font-size: 29px;
+}
 .navbar {
   margin-left: auto;
   margin-right: auto;
   width: 60%;
-  font-family: "loos-wide", sans-serif;
-  font-weight: 100;
-  word-spacing: normal;
   line-height: 2;
   text-align: center;
   
 }
 .linktxt {
   display: inline-block;
-  font-family: "loos-wide", sans-serif;
-  font-weight: 200;
-  font-size: 29px;
   word-spacing: 4px;
   color:blue;
   text-decoration: none;
 }
 .linktxtactive {
-  font-family: "loos-wide", sans-serif;
-  font-weight: 200;
-  font-style: normal;
-  font-size: 29px;
   word-spacing: 4px;
   text-decoration: none;
   color: darkblue;
