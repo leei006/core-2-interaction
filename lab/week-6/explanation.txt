@@ -1,0 +1,7 @@
+Under the "Display: Grid" feature I added a 3x3 grid of fruit imgs outlined with a 1px solid border. 
+
+"Display: Flex" is demonstrated in the color block at the top of the webpage. I used the style "justify content: space-between" to make the topbar squares equidistant from one another. 
+
+"Position: Absolute" is demonstrated by the farmer icon in the left of the viewport. As you scroll down the farmer stays in place. 
+
+"Position Relative" is demonstrated by the fruit imgs to center them within the outlined black grid boxes. 
