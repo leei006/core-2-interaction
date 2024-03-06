@@ -1,5 +1,5 @@
 body {
-    margin: 10%
+    margin: 5%
 }
 hr {
     background-color: black;
@@ -10,9 +10,12 @@ hr {
     letter-spacing: -0.5px
 }
 /* fix the hr */
+.pink {
+    color: rgb(228, 117, 136);
+}
 .subhead {
     display: inline-block;
-    margin-left: 40px;
+    margin-left: 20px;
     font-size: 11pt;
 }
 .main2 {
@@ -58,7 +61,7 @@ hr {
 .table {
     display: grid;
     grid-template-columns: repeat(5,27vh);
-    grid-template-rows: repeat(2,26vh);
+    grid-template-rows: repeat(3,26vh);
     grid-gap: 5%;
 }
 video {
@@ -138,20 +141,20 @@ video {
 
 @media screen and (max-width: 1350px){
     .table {
-       grid-gap: 2%;
+       grid-gap: 3%;
        grid-template-columns: repeat(5,24vh);
         }
 }
 @media screen and (max-width: 1100px){
     .table {
-       grid-gap: 10%;
-       grid-template-columns: repeat(3,25vh);
+       grid-gap: 3%;
+       grid-template-columns: repeat(4,23vh);
         }
 }
 @media screen and (max-width: 900px){
     .table {
-       grid-gap: 10%;
-       grid-template-columns: repeat(2,25vh);
+       grid-gap: 3%;
+       grid-template-columns: repeat(4,23vh);
         }
 }
 @media screen and (max-width: 700px){
@@ -163,7 +166,7 @@ video {
         font-size: 10pt;
     }
     .table {
-       grid-gap: 10%;
-       grid-template-columns: repeat(2,22vh);
+       grid-gap: 2%;
+       grid-template-columns: repeat(4, 16vh);
         }
 }
