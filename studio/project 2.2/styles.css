@@ -1,0 +1,207 @@
+body {
+    font-family: "noka", sans-serif;
+}
+.collimage {
+    width: 100px;
+    margin-bottom: 30px;
+}
+
+.link{
+    float: right;
+    margin-bottom: 20px;
+    padding: 3px;
+    background: yellow;
+    color: darkblue;
+    text-decoration: none;
+}
+.icon {
+    width: 25px;
+    margin-left: 5px;
+}
+.bold {
+    margin-left: 5%;
+    font-size: 12pt;
+    font-weight: 500;
+    margin-bottom: 30px;
+}
+.noka {
+    margin-left: 5%;
+    font-size: 22pt;
+    font-weight: 500;
+    color: black;
+}
+.subtitle {
+    width: 100%;
+    margin-left: 5%;
+    font-size: 12pt;
+    font-weight: 500;
+}
+.sidebar {
+    margin-left: 5%;
+    margin-right: 30px;
+    width: 16%;
+}
+.content3 {
+    cursor: pointer;
+    background: rgb(236, 236, 236);
+    margin-top: 30px;
+    padding: 3px;
+    border: solid 1px black;
+}
+.sub {
+    color: black;
+    display: inline;
+    margin-left: 10px;
+    font-family: "JetBrains Mono", monospace;
+    font-weight: 400;
+    font-size: 9pt;
+}
+.sub:hover {
+    padding: 3px;
+    background-color: black;
+    color: white;
+}
+.block {
+   
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 10px;
+    height: 10px;
+    border: solid 1.5px black;
+}
+.hot {
+    margin-left: 10px;
+    display: inline-block;
+    border-radius: 50%;
+    border: solid 1.5px black;
+    width: 15px;
+    height: 15px;
+    background-color: red;
+    transform: scale(1);
+	animation: pulse 8s infinite;
+}
+.cold {
+    margin-left: 10px;
+    display: inline-block;
+    border-radius: 50%;
+    border: solid 1.5px black;
+    width: 15px;
+    height: 15px;
+    background-color: blue;
+}
+.brown {
+    display: inline-block;
+    background-color: rgb(130, 67, 25);
+}
+.darkbrown {
+    display: inline-block;
+    background-color: rgb(57, 24, 12);
+}
+.red {
+    display: inline-block;
+    background-color: red;
+}
+.green {
+    display: inline-block;
+    background-color: green;
+}
+.beige {
+    display: inline-block;
+    background-color: beige;
+}
+.yellow {
+    display: inline-block;
+    background-color: rgb(255, 225, 0);
+}
+.collapsible {
+    font-family: "noka", sans-serif;
+    background-color: rgb(244, 244, 177);
+    color: black;
+    cursor: pointer;
+    padding: 3px;
+    width: 95%;
+    border: 1px solid black;
+    text-align: left;
+    outline: none;
+    font-size: 15px;
+  }
+  .colltitle {
+    margin-left: 10px;
+   }
+  .active, .collapsible:hover {
+    color: white;
+    background-color: rgb(3, 86, 253);
+  }
+  .content {
+    width: calc(95% - 30px);
+    padding: 0 14px;
+    display: none;
+    overflow: hidden;
+    background-color: rgb(213, 219, 247);
+    border: solid 1px black;
+  }
+  #recipes{
+    margin-top: 30px;
+  }
+.container {
+    display: flex;
+}
+.content-container {
+    flex: 1;
+}
+
+@media screen and (max-width:955px) {
+    /* For mobile phones: */
+.body{
+    margin: 20%;
+}
+   .sidebar{
+    margin-right: 10px;
+    width: 35%;
+   }
+   .sub {
+    margin-left: 3px;
+    font-size: 7pt;
+    word-spacing: -5px;
+}
+.sub:hover {
+    padding: 0px;
+    background-color: black;
+    color: white;
+}
+   .subtitle{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+    text-align: center;
+   }
+   .bold{
+    margin-bottom: 5px;
+   }
+   .noka{
+    text-align: center;
+    font-size: 20pt;
+   }
+   .collapsible {
+    padding: 2px;
+    font-size: 8pt;
+    width: 90%;
+   }
+   .colltitle {
+    margin-left: 10px;
+   }
+   .content {
+    width: calc(90% - 35px);
+    padding: 0 18px;
+    display: none;
+    overflow: hidden;
+    background-color: rgb(213, 219, 247);
+    font-size: 8pt;
+  }
+  .link {
+    float: left;
+    padding: 0px;
+    margin-bottom: 5px;
+  }
+  }

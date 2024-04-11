@@ -1,0 +1,66 @@
+{
+    "music": [
+        {
+            "title": "17",
+            "artist": "Pink Sweat$",
+            "time": "2:40"
+        },
+        {
+            "title": "Selfish",
+            "artist": "Madison Beer",
+            "time": "3:42"
+        },
+        {
+            "title": "Location",
+            "artist": "Khalid",
+            "time": "3:36"
+        },
+        {
+            "title": "Before You Go",
+            "artist": "Lewis Capaldi",
+            "time": "3:24"
+        },
+        {
+            "title": "Needy",
+            "artist": "Ariana Grande",
+            "time": "2:50"
+        },
+        {
+            "title": "idontwannabeyouanymore",
+            "artist": "Billie Eilish",
+            "time": "3:23"
+        },
+        {
+            "title": "Paris in the Rain",
+            "artist": "Lauv",
+            "time": "3:24"
+        },
+        {
+            "title": "Worst of You",
+            "artist": "Maisie Peters",
+            "time": "3:15"
+        },
+        {
+            "title": "Don't Know What To Do",
+            "artist": "BLACKPINK",
+            "time": "3:20"
+        },
+        {
+            "title": "Only",
+            "artist": [
+                "NF",
+                "Sasha Alex Sloan"
+            ],
+            "time": "3:45"
+        },
+        {
+            "title": "Lover Boy 88",
+            "artist": [
+                "88rising",
+                "Phum Viphurit",
+                "Higher Brothers"
+            ],
+            "time": "3:52"
+        }
+    ]
+}
