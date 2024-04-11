@@ -193,7 +193,7 @@ body {
    }
    .content {
     width: calc(90% - 35px);
-    padding: 0 18px;
+    padding: 0 16.5px;
     display: none;
     overflow: hidden;
     background-color: rgb(213, 219, 247);
