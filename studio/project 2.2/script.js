@@ -73,7 +73,7 @@ let collection = [
 {
     "name": "Green Onion Kimchi",
     "korean": "Pa-kimchi 파김치",
-    "image": "img/",
+    "image": "img/pakimchi.png",
     "color": "Green",
     "genre": "Frail Greens",
     "temp": "Cold",
