@@ -1,0 +1,11 @@
+{
+    "manifest_version": 2,
+    "name": "Doodle",
+    "version": "1.0",
+    "description": "Change images to a fun pic",
+    "content_scripts": [{
+    "matches": ["http://*/*", "https://*/*"],
+    "js": ["extension.js"],
+    "css": ["styles.css"]
+    }]
+    }

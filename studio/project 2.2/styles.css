@@ -19,10 +19,12 @@ body {
     margin-left: 5px;
 }
 .bold {
-    margin-left: 5%;
+    text-align: right;
+    margin-top: 30px;
+    margin-right: 5%;
     font-size: 12pt;
     font-weight: 500;
-    margin-bottom: 30px;
+    margin-bottom: 0px;
 }
 .noka {
     margin-left: 5%;
@@ -30,21 +32,31 @@ body {
     font-weight: 500;
     color: black;
 }
-.subtitle {
-    width: 100%;
+.nokafooter{
     margin-left: 5%;
-    font-size: 12pt;
+    margin-top: 0;
+    text-align: left;
+    font-size: 22pt;
+    font-weight: 500;
+}
+.subtitle {
+    width: 380px;
+    text-align: left;
+    margin-left: 5%;
+    font-size: 11pt;
     font-weight: 500;
 }
 .sidebar {
-    margin-left: 5%;
-    margin-right: 30px;
+    position: absolute;
+    bottom: 200px;
+    right: 0;
+    margin-right: 5%;
     width: 16%;
 }
 .content3 {
     cursor: pointer;
     background: rgb(236, 236, 236);
-    margin-top: 30px;
+    margin-top: 12px;
     padding: 3px;
     border: solid 1px black;
 }
@@ -57,12 +69,23 @@ body {
     font-size: 9pt;
 }
 .sub:hover {
-    padding: 3px;
     background-color: black;
     color: white;
 }
+.footer {
+    width: 110%;
+    color: white;
+    background-color: black;
+    text-align: left;
+}
+.footertxt {
+    margin-top: 0px;
+    margin-left: 5%;
+    margin-bottom: 0;
+    font-size: 11pt;
+    font-weight: 500;
+}
 .block {
-   
     margin-left: 5px;
     margin-right: 5px;
     width: 10px;
@@ -114,12 +137,13 @@ body {
     background-color: rgb(255, 225, 0);
 }
 .collapsible {
+    margin-left: 5%;
     font-family: "noka", sans-serif;
     background-color: rgb(244, 244, 177);
     color: black;
     cursor: pointer;
     padding: 3px;
-    width: 95%;
+    width: 70%;
     border: 1px solid black;
     text-align: left;
     outline: none;
@@ -133,7 +157,8 @@ body {
     background-color: rgb(3, 86, 253);
   }
   .content {
-    width: calc(95% - 30px);
+    margin-left: 5%;
+    width: calc(70% - 30px);
     padding: 0 14px;
     display: none;
     overflow: hidden;

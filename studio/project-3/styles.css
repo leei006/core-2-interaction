@@ -1,0 +1,49 @@
+body {
+    margin: 3%;
+}
+.title{
+  font-family: "bookmania", serif;
+    font-weight: 400;
+    font-size: 18pt;
+    text-align: center;
+    grid-column-start: 3;
+}
+.beachnames {
+position: relative;
+top: 150px;
+left: 80px;
+rotate: -32deg;
+z-index: 2;
+font-family: "trade-gothic-next", sans-serif;
+font-weight: 300;
+font-size: 10pt;
+color: black;
+
+}
+.beachicon {
+  width: 225px;
+}
+.beachicon:hover {
+  position: relative;
+  top: -30px;
+}
+.south {
+  grid-column-start: 4;
+  grid-row-start: 1;
+}
+.coney {
+  grid-column-start: 2;
+  grid-row-start: 1;
+}
+.brighton {
+  grid-column-start: 3;
+  grid-row-start: 1;
+}
+.mapcontainer {
+  display: grid;
+  padding: 10px;
+  grid-template-columns: repeat(7,1fr);
+  grid-template-rows: repeat(3,1fr);
+  grid-gap: 50px;
+  border: 1px solid black;
+}

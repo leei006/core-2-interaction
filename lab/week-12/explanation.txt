@@ -1,0 +1,16 @@
+(Group: Izzy and Neha)
+
+Izzy: 
+
+Neha and I took a while in class to figure out how to correctly link the API file to our code. We realized that the link was embedded in a specific place in the API file (not just the link in the browser), and the coordinates for our chosen location had to include the negative symbol for the seconday coordinate. 
+Linking the API was the hardest part to understand, after that we searched through the code for specific keywords that we wanted to be the main focus of our weather site. The site shows days of the week, temperature, windspeed, and forecast for the corresponding day. 
+The order of the weekdays is conditional to the current day, with the current day being at the top and the rest of the weekdays in order chronologically. 
+
+
+Neha: 
+
+Izzy and I first started by trying to access the right API JSON file with the data relevant to the location we wanted to display, after finding the file we initally struggled with understanding the correct URL to link and had errors on our console due to files being linked incorrectly or spelling mistakes.
+
+After some help, we were able to console.log our data and see the objects. We were able to use createElement to create a div and appendChild to add our template literals to the page. 
+
+For the icons that are displayed on the right, I initally wanted to use emojis to display using an if/else conditional but noticed that each day/forecast had it's own icon in the API JSON file which I added in the same way as the other template literals. Additionally I looked at some online tutorials to help create the conditional statement to then display the emojis along with the icons.
