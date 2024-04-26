@@ -2,7 +2,7 @@ function setup() {
     createCanvas(windowWidth,windowHeight);
   }
   
-  function draw() {
+function draw() {
 fill (243, 118, 20);
          // left leg
          rect (185,300,10,5);
