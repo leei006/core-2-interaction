@@ -1,49 +1,154 @@
-body {
-    margin: 3%;
+body{
+  margin: 3%;
 }
-.title{
-  font-family: "bookmania", serif;
-    font-weight: 400;
-    font-size: 18pt;
-    text-align: center;
-    grid-column-start: 3;
+.title {
+  grid-column: 1;
+  line-height: 1;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "trade-gothic-next", sans-serif;
+  font-weight: 700;
+  font-size: 17pt;
+  text-align: left;
 }
+/* .sidebar {
+  grid-column: 1;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  width: 200px;
+  height: 400px;
+  border: solid 1px black;
+} */
 .beachnames {
-position: relative;
-top: 150px;
-left: 80px;
-rotate: -32deg;
-z-index: 2;
-font-family: "trade-gothic-next", sans-serif;
-font-weight: 300;
-font-size: 10pt;
-color: black;
-
+  width: fit-content;
+  height: fit-content;
+  position: relative;
+  top: 200px;
+  left: 60px;
+  rotate: -32deg;
+  font-family: "trade-gothic-next", sans-serif;
+  font-weight: 300;
+  font-size: 10pt;
+  color: black;
 }
 .beachicon {
-  width: 225px;
+  position: relative;
 }
 .beachicon:hover {
-  position: relative;
-  top: -30px;
+  transform: translateY(-110px) scale(0.6); 
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.beachicon:hover + .descrip {
+  display: block;
+  transform: translateY(-25px);
+}
+
+
+.descrip{
+  display: none;
+  position: relative; 
+  margin-top: 130px;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  width: 210px;
+  font-family: "trade-gothic-next", sans-serif;
+  font-weight: 400;
+  font-size: 8pt;
+  line-height: 1.2;
+}
+.ocean {
+  font-family: "trade-gothic-next", sans-serif;
+  font-weight: 700;
+  font-size: 8pt;
+  text-align: left;
+}
+.color {
+  width: 20px;
+  height: 20px;
+  margin-bottom: 5px;
+}
+.one {
+  grid-column: 2;
+  grid-row: 1;
+}
+.two {
+  grid-column: 3;
+  grid-row: 1;
+}
+.three {
+  grid-column: 4;
+  grid-row: 1;
+}
+.four {
+  grid-column: 2;
+  grid-row: 3;
+}
+.five {
+  grid-column: 3;
+  grid-row: 3;
+}
+.six {
+  grid-column: 4;
+  grid-row: 3;
+}
+.seven {
+  grid-column: 2;
+  grid-row: 5;
+}
+.eight {
+  grid-column: 3;
+  grid-row: 5;
+}
+.nine {
+  grid-column: 4;
+  grid-row: 5;
 }
 .south {
-  grid-column-start: 4;
-  grid-row-start: 1;
+  grid-column: 4;
+  grid-row: 2;
 }
 .coney {
-  grid-column-start: 2;
-  grid-row-start: 1;
+  grid-column: 3;
+  grid-row: 2;
 }
 .brighton {
-  grid-column-start: 3;
-  grid-row-start: 1;
+  grid-column: 2;
+  grid-row: 2;
 }
-.mapcontainer {
+.cedar {
+  grid-column: 2;
+  grid-row: 4;
+}
+.manhattan {
+  grid-column: 3;
+  grid-row: 4;
+}
+.midland {
+  grid-column: 4;
+  grid-row: 4;
+}
+.orchard {
+  grid-column: 2;
+  grid-row: 6;
+}
+.rockaway {
+  grid-column: 3;
+  grid-row: 6;
+}
+.wolfes {
+  grid-column: 4;
+  grid-row: 6;
+}
+#mapcontainer {
+  background-color: rgb(251, 250, 239);
   display: grid;
-  padding: 10px;
-  grid-template-columns: repeat(7,1fr);
-  grid-template-rows: repeat(3,1fr);
-  grid-gap: 50px;
+  padding: 15px;
+  grid-template-columns: repeat(5,1fr);
+  grid-template-rows: 40px 200px 40px 200px 40px 200px 40px 200px;
+  grid-gap: 30px;
   border: 1px solid black;
 }
