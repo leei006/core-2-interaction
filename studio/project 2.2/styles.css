@@ -21,16 +21,15 @@ body {
 .bold {
     text-align: right;
     margin-top: 30px;
-    margin-right: 5%;
+    margin-right: 4%;
     font-size: 12pt;
     font-weight: 500;
-    margin-bottom: 0px;
+    margin-bottom: 10px;
 }
 .noka {
-    margin-left: 5%;
     font-size: 22pt;
     font-weight: 500;
-    color: black;
+    color: white;
 }
 .nokafooter{
     margin-left: 5%;
@@ -43,12 +42,12 @@ body {
     width: 380px;
     text-align: left;
     margin-left: 5%;
-    font-size: 11pt;
+    font-size: 10pt;
     font-weight: 500;
 }
 .sidebar {
     position: absolute;
-    bottom: 200px;
+    bottom: 165px;
     right: 0;
     margin-right: 5%;
     width: 16%;
@@ -79,9 +78,7 @@ body {
     text-align: left;
 }
 .footertxt {
-    margin-top: 0px;
-    margin-left: 5%;
-    margin-bottom: 0;
+    margin-left: 4%;
     font-size: 11pt;
     font-weight: 500;
 }
@@ -177,12 +174,12 @@ body {
 
 @media screen and (max-width:955px) {
     /* For mobile phones: */
-.body{
-    margin: 20%;
-}
    .sidebar{
-    margin-right: 10px;
-    width: 35%;
+    position: absolute;
+    bottom: 172px;
+    right: 0;
+    margin-right: 30px;
+    width: 25%;
    }
    .sub {
     margin-left: 3px;
@@ -203,6 +200,8 @@ body {
    }
    .bold{
     margin-bottom: 5px;
+    font-size: 10pt;
+    margin-right: 30px;
    }
    .noka{
     text-align: center;
@@ -211,13 +210,13 @@ body {
    .collapsible {
     padding: 2px;
     font-size: 8pt;
-    width: 90%;
+    width: 55%;
    }
    .colltitle {
     margin-left: 10px;
    }
    .content {
-    width: calc(90% - 35px);
+    width: calc(55% - 34px);
     padding: 0 16px;
     display: none;
     overflow: hidden;

@@ -1,15 +1,36 @@
 body{
-  margin: 3%;
+  margin: 5%;
+  background-color: rgb(246, 243, 228);
 }
 .title {
-  grid-column: 1;
-  line-height: 1;
-  margin-left: auto;
-  margin-right: auto;
-  font-family: "trade-gothic-next", sans-serif;
-  font-weight: 700;
-  font-size: 17pt;
+  margin-bottom: 50px;
+  font-family: "faustina", sans-serif;
+  font-weight: 300;
+  font-size: 27pt;
   text-align: left;
+  color: orange;
+  text-decoration: none;
+}
+.link{
+  display: inline-block;
+  margin-top: 10px;
+  font-family: "faustina", sans-serif;
+  font-weight: 300;
+  font-size: 27pt;
+  color: black;
+  text-decoration: none;
+}
+.link:hover {
+  color: rgb(0, 200, 255);
+  font-weight: 700;
+}
+.italic {
+  font-family: "faustina", sans-serif;
+  font-weight: 700;
+  font-style: italic;
+}
+.second {
+  color: black;
 }
 /* .sidebar {
   grid-column: 1;
@@ -21,22 +42,23 @@ body{
   border: solid 1px black;
 } */
 .beachnames {
-  width: fit-content;
-  height: fit-content;
-  position: relative;
-  top: 200px;
-  left: 60px;
-  rotate: -32deg;
-  font-family: "trade-gothic-next", sans-serif;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "faustina", sans-serif;
   font-weight: 300;
   font-size: 10pt;
   color: black;
 }
 .beachicon {
   position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 170px;
 }
 .beachicon:hover {
-  transform: translateY(-110px) scale(0.6); 
+  transform: scale(0.6); 
+  opacity: 50%;
   margin-left: auto;
   margin-right: auto;
 }
@@ -45,26 +67,23 @@ body{
   display: block;
   transform: translateY(-25px);
 }
-
-
 .descrip{
+  margin-top: 70px;
+  text-align: center;
+  line-height: 1;
+  width: 130px;
+  font-size: 7pt;
   display: none;
   position: relative; 
-  margin-top: 130px;
-  text-align: left;
   margin-left: auto;
   margin-right: auto;
-  width: 210px;
-  font-family: "trade-gothic-next", sans-serif;
-  font-weight: 400;
-  font-size: 8pt;
-  line-height: 1.2;
+  font-family: "faustina", sans-serif;
+  font-weight: 300;
 }
 .ocean {
-  font-family: "trade-gothic-next", sans-serif;
-  font-weight: 700;
-  font-size: 8pt;
-  text-align: left;
+  font-family: "faustina", sans-serif;
+  font-weight: 500;
+  font-size: 9pt;
 }
 .color {
   width: 20px;
@@ -72,83 +91,305 @@ body{
   margin-bottom: 5px;
 }
 .one {
-  grid-column: 2;
+  grid-column: 1;
   grid-row: 1;
 }
 .two {
-  grid-column: 3;
+  grid-column: 2;
   grid-row: 1;
 }
 .three {
-  grid-column: 4;
+  grid-column: 3;
   grid-row: 1;
 }
 .four {
-  grid-column: 2;
-  grid-row: 3;
+  grid-column: 4;
+  grid-row: 1;
 }
 .five {
-  grid-column: 3;
+  grid-column: 1;
   grid-row: 3;
 }
 .six {
-  grid-column: 4;
+  grid-column: 2;
   grid-row: 3;
 }
 .seven {
-  grid-column: 2;
-  grid-row: 5;
+  grid-column: 3;
+  grid-row: 3;
 }
 .eight {
-  grid-column: 3;
-  grid-row: 5;
+  grid-column: 4;
+  grid-row: 3;
 }
 .nine {
-  grid-column: 4;
+  grid-column: 1;
   grid-row: 5;
 }
 .south {
-  grid-column: 4;
-  grid-row: 2;
+  grid-column: 3;
+  grid-row: 1;
 }
 .coney {
-  grid-column: 3;
-  grid-row: 2;
+  grid-column: 2;
+  grid-row: 1;
 }
 .brighton {
-  grid-column: 2;
-  grid-row: 2;
+  grid-column: 1;
+  grid-row: 1;
 }
 .cedar {
-  grid-column: 2;
-  grid-row: 4;
+  grid-column: 4;
+  grid-row: 1;
 }
 .manhattan {
-  grid-column: 3;
-  grid-row: 4;
+  grid-column: 1;
+  grid-row: 3;
 }
 .midland {
-  grid-column: 4;
-  grid-row: 4;
+  grid-column: 2;
+  grid-row: 3;
 }
 .orchard {
-  grid-column: 2;
-  grid-row: 6;
+  grid-column: 3;
+  grid-row: 3;
 }
 .rockaway {
-  grid-column: 3;
-  grid-row: 6;
+  grid-column: 4;
+  grid-row: 3;
 }
 .wolfes {
-  grid-column: 4;
-  grid-row: 6;
+  grid-column: 1;
+  grid-row: 5;
 }
 #mapcontainer {
-  background-color: rgb(251, 250, 239);
+  margin-top: 0px;
   display: grid;
   padding: 15px;
-  grid-template-columns: repeat(5,1fr);
-  grid-template-rows: 40px 200px 40px 200px 40px 200px 40px 200px;
-  grid-gap: 30px;
-  border: 1px solid black;
+  grid-template-columns: repeat(4,1fr);
+  grid-template-rows: 120px 50px 120px 50px 120px 50px 120px 50px;
+}
+#amenitiescolor {
+  width: 40px;
+}
+#amenitiescolor:hover {
+  transform: translateX(40px);
+}
+.colorcontainer {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 60px;
+  display: grid;
+  grid-template-columns: repeat(1,40px);
+  grid-template-rows: repeat(9,40px);
+  grid-gap: 24px;
+}
+#colorsub {
+  margin-top: 0;
+  font-family: "trade-gothic-next", sans-serif;
+  font-weight: 500;
+  font-size: 6pt;
+  text-align: center;
+}
+.beachcolor {
+  border: 1px black solid;
+  border-radius: 50%;
+}
+@media screen and (max-width:955px) {
+  .beachicon {
+    width: 150px;
+  }
+  .beachnames {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "faustina", sans-serif;
+    font-weight: 300;
+    font-size: 9pt;
+    color: black;
+  }
+  .beachicon:hover {
+    transform: scale(0.6); 
+    opacity: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .beachicon:hover + .descrip {
+    display: block;
+    transform: translateY(-25px);
+  }
+  .descrip{
+    margin-top: 60px;
+    text-align: center;
+    line-height: 1;
+    width: 130px;
+    font-size: 7pt;
+  }
+  #mapcontainer {
+    grid-template-rows: 120px 40px 120px 40px 120px 40px 120px 40px;
+    grid-gap: 0;
+  }
+}
+@media screen and (max-width:700px) {
+  .beachicon {
+    width: 100px;
+  }
+  .beachnames {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "faustina", sans-serif;
+  font-weight: 300;
+    font-size: 5pt;
+    color: black;
+  }
+  .beachicon:hover {
+    transform: scale(0.6); 
+    opacity: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .beachicon:hover + .descrip {
+    display: block;
+    transform: translateY(-25px);
+  }
+  .ocean{
+    font-size: 5pt;
+  }
+  .descrip{
+    margin-top: 60px;
+    text-align: center;
+    line-height: 1;
+    width: 110px;
+    font-size: 6pt;
+  }
+  #mapcontainer {
+    grid-template-columns: repeat(4,130px);
+    grid-template-rows: 100px 40px 100px 40px 100px 40px 100px 40px;
+    grid-gap: 0;
+  }
+}
+@media screen and (max-width:300px) {
+  .beachicon {
+    width: 80px;
+  }
+  .beachnames {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: "faustina", sans-serif;
+    font-weight: 300;
+    font-size: 4pt;
+    color: black;
+  }
+  .beachicon:hover {
+    transform: scale(0.6); 
+    opacity: 50%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .beachicon:hover + .descrip {
+    display: block;
+    transform: translateY(-25px);
+  }
+  .ocean{
+    font-size: 5pt;
+  }
+  .descrip{
+    margin-top: 60px;
+    text-align: center;
+    line-height: 1;
+    width: 110px;
+    font-size: 6pt;
+  }
+  #mapcontainer {
+    grid-template-columns: repeat(3,80px);
+    grid-template-rows: 80px 40px 80px 40px 80px 40px 80px 40px;
+    grid-gap: 0;
+  }
+  .one {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  .two {
+    grid-column: 2;
+    grid-row: 1;
+  }
+  .three {
+    grid-column: 3;
+    grid-row: 1;
+  }
+  .four {
+    grid-column: 1;
+    grid-row: 3;
+  }
+  .five {
+    grid-column: 2;
+    grid-row: 3;
+  }
+  .six {
+    grid-column: 3;
+    grid-row: 3;
+  }
+  .seven {
+    grid-column: 1;
+    grid-row: 5;
+  }
+  .eight {
+    grid-column: 2;
+    grid-row: 5;
+  }
+  .nine {
+    grid-column: 3;
+    grid-row: 5;
+  }
+  .south {
+    grid-column: 3;
+    grid-row: 1;
+  }
+  .coney {
+    grid-column: 2;
+    grid-row: 1;
+  }
+  .brighton {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  .cedar {
+    grid-column: 1;
+    grid-row: 3;
+  }
+  .manhattan {
+    grid-column: 2;
+    grid-row: 3;
+  }
+  .midland {
+    grid-column: 3;
+    grid-row: 3;
+  }
+  .orchard {
+    grid-column: 1;
+    grid-row: 5;
+  }
+  .rockaway {
+    grid-column: 2;
+    grid-row: 5;
+  }
+  .wolfes {
+    grid-column: 3;
+    grid-row: 5;
+  }
+}
+#data {
+  border: solid 1px black;
+  padding: 10px;
+  text-align: left;
+margin-left: auto;
+margin-right: auto;
+margin-top: 20px;
+  font-family: "faustina", sans-serif;
+  font-weight: 300;
+  font-size: 10pt;
+  background-color: none;
+  color: black;
 }
