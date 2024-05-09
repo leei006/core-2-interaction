@@ -83,7 +83,7 @@ let collection = [
 {
     "name": "Kimchi Pancake",
     "korean": "Kimchijeon 김치전",
-    "image": "img/",
+    "image": "img/kimchipancake.png",
     "color": "Red",
     "genre": "Hearty Veggies",
     "temp": "Hot",
@@ -93,7 +93,7 @@ let collection = [
 {
     "name": "Minari",
     "korean": "Minari-muchim 미나리무침",
-    "image": "img/",
+    "image": "img/minari.jpg",
     "color": "Green",
     "genre": "Root",
     "temp": "Cold",
@@ -123,7 +123,7 @@ let collection = [
 {
     "name": "Mustard Greens Kimchi",
     "korean": "Gat-kimchi 갓김치",
-    "image": "img/",
+    "image": "img/mustardgreenskimchi.jpg",
     "color": "Green",
     "genre": "Frail Greens",
     "temp": "Cold",
@@ -133,7 +133,7 @@ let collection = [
 {
     "name": "Perilla Leaf Pancake",
     "korean": "Kkaennip-jangtteok 깻잎장떡",
-    "image": "img/",
+    "image": "img/perillaleafpancake.jpg",
     "color": "Green",
     "genre": "Frail Greens",
     "temp": "Hot",
@@ -143,7 +143,7 @@ let collection = [
 {
     "name": "Seafood Pancake",
     "korean": "Haemul-pajeon 해물파전",
-    "image": "img/",
+    "image": "img/seafoodpancake.jpg",
     "color": "Yellow",
     "genre": ["Frail Greens","Sea Food"],
     "temp": "Hot",
@@ -153,7 +153,7 @@ let collection = [
 {
     "name": "Shrimp Pancake",
     "korean": "Saeujeon 새우전",
-    "image": "img/",
+    "image": "img/shrimppancake.jpg",
     "color": "Yellow",
     "genre": "Protein",
     "temp": "Hot",
@@ -163,7 +163,7 @@ let collection = [
 {
     "name": "Potato Pancake",
     "korean": "Gamjajeon 감자전",
-    "image": "img/",
+    "image": "img/potatopancake.jpg",
     "color": "Brown",
     "genre": "Hearty Veggies",
     "temp": "Hot",
@@ -173,7 +173,7 @@ let collection = [
 {
     "name": "Braised Potatoes",
     "korean": "Maeun-gamja-jorim 매운감자조림",
-    "image": "img/",
+    "image": "img/braisedpotatoes.jpg",
     "color": "Red",
     "genre": "Hearty Veggies",
     "temp": "Cold",
@@ -183,7 +183,7 @@ let collection = [
 {
     "name": "Cucumber Kimchi",
     "korean": "Oi-muchim 오이무침",
-    "image": "img/",
+    "image": "img/cucumberkimchi.jpg",
     "color": "Green",
     "genre": "Hearty Veggies",
     "temp": "Cold",
@@ -193,7 +193,7 @@ let collection = [
 {
     "name": "Raw Marinated Crab",
     "korean": "Yangnyeom-gejang 양념게장",
-    "image": "img/",
+    "image": "img/rawmarinatedcrab.jpg",
     "color": "Red",
     "genre": "Sea Food",
     "temp": "Cold",
@@ -203,7 +203,7 @@ let collection = [
 {
     "name": "Stir-Fried Blood Sausage",
     "korean": "Sundae Bokkeum 순대볶음",
-    "image": "img/",
+    "image": "img/stirfriedbloodsausage.jpg",
     "color": "Brown",
     "genre": "Protein",
     "temp": "Hot",
@@ -213,7 +213,7 @@ let collection = [
 {
     "name": "Stir Fried Octopus",
     "korean": "Nakji-Bokkeum 낙지볶음",
-    "image": "img/",
+    "image": "img/nakjibokkeum.jpg",
     "color": "Red",
     "genre": "Sea Food",
     "temp": "Hot",
@@ -223,7 +223,7 @@ let collection = [
 {
     "name": "Stir-Fried Fernbrake",
     "korean": "Gosari-namul 고사리나물",
-    "image": "img/",
+    "image": "img/gosarinamul.jpg",
     "color": "Brown",
     "genre": "Frail Greens",
     "temp": "Cold, Hot",
@@ -233,7 +233,7 @@ let collection = [
 {
     "name": "Stir-Fried Oyster Mushrooms",
     "korean": "Neutari-beoseot-bokkeum 느타리버섯볶음",
-    "image": "img/",
+    "image": "img/oystermushrooms.jpg",
     "color": "Brown",
     "genre": "Hearty Veggies",
     "temp": "Cold, Hot",
