@@ -103,7 +103,7 @@ let collection = [
 {
     "name": "Mung Bean Pancake",
     "korean": "Bindaetteok 빈대떡",
-    "image": "img/",
+    "image": "img/mungbeanpancake.jpg",
     "color": "Yellow",
     "genre": "Frail Greens",
     "temp": "Hot",
